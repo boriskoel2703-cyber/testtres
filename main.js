@@ -14,7 +14,7 @@ toggle.addEventListener('click',()=>{
 
 // Reviews wisselen
 const reviews=[
-  {q:"Tresor wist precies wanneer hij de zaal los moest laten. Van rustige achtergrondmuziek tijdens het diner tot een volle dansvloer later op de avond — top geregeld!",w:"Lisanne · Bruiloft Zeewolde"},
+  {q:"Tresor wist precies wanneer hij de zaal los moest laten. Van rustige achtergrondmuziek tijdens het diner tot een volle dansvloer later op de avond. Top geregeld!",w:"Lisanne · Bruiloft Zeewolde"},
   {q:"Als studievereniging hadden we een DJ nodig die het publiek aanvoelt. Tresor deed dat perfect, de sfeer zat er meteen goed in.",w:"Thomas · Studentengala"},
   {q:"Communicatie vooraf verliep soepel en op de avond zelf speelde hij precies de mix die bij ons bedrijfsfeest paste. Aanrader!",w:"Sander · Bedrijfsborrel Amersfoort"}
 ];

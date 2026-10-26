@@ -1,4 +1,4 @@
-// Vercel Routing Middleware — wachtwoord op de hele site.
+// Vercel Routing Middleware: wachtwoord op de hele site.
 // Zet SITE_PASSWORD in Vercel (Settings → Environment Variables, Production + Preview) en redeploy.
 // Uitloggen: ga naar /api/logout
 
