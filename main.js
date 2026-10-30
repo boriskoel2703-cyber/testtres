@@ -14,9 +14,9 @@ toggle.addEventListener('click',()=>{
 
 // Reviews wisselen
 const reviews=[
-  {q:"Tresor wist precies wanneer hij de zaal los moest laten. Van rustige achtergrondmuziek tijdens het diner tot een volle dansvloer later op de avond. Top geregeld!",w:"Lisanne · Bruiloft Zeewolde"},
-  {q:"Als studievereniging hadden we een DJ nodig die het publiek aanvoelt. Tresor deed dat perfect, de sfeer zat er meteen goed in.",w:"Thomas · Studentengala"},
-  {q:"Communicatie vooraf verliep soepel en op de avond zelf speelde hij precies de mix die bij ons bedrijfsfeest paste. Aanrader!",w:"Sander · Bedrijfsborrel Amersfoort"}
+  {q:"Ruim op tijd, vooraf meegedacht en zelfs al contact gehad met de locatie. Tijdens het feest draaide hij precies de juiste muziek voor ons publiek. Absoluut een aanrader!",w:"Vincent · 30e verjaardag"},
+  {q:"Van start tot eind goed aangevoeld wat er gedraaid moest worden. Verzoekjes konden makkelijk tussendoor en er werd volop gedanst door jong en oud(er)!",w:"Gloria · Feest, juli 2025"},
+  {q:"Van een mellow begin naar een volwaardig dansfeest, zelfs de meest verlegen collega's gingen los. Persoonlijk, interactief en super geluid. Een echte aanrader!",w:"Camila · Bedrijfsfeest"}
 ];
 const quote=document.getElementById('quote');
 if(quote)document.querySelectorAll('.who button').forEach(b=>b.addEventListener('click',()=>{
@@ -32,11 +32,11 @@ const form=document.getElementById('boekform');
 if(form){
   // Soort feest vooraf invullen vanuit ?soort= (links op de homepage)
   const soort=new URLSearchParams(location.search).get('soort');
-  const map={bruiloft:'Bruiloft',bedrijfsfeest:'Bedrijfsfeest of borrel',studentenfeest:"Studentenfeest of gala"};
+  const map={samenwerking:'Samenwerking (artiest, venue, merk)',bruiloft:'Bruiloft',bedrijfsfeest:'Bedrijfsfeest of borrel',studentenfeest:"Studentenfeest of gala"};
   if(soort==='dj-sax'){form.querySelector('input[name="formule"][value="DJ + saxofoon"]').checked=true;}
   else if(map[soort]){form.soort.value=map[soort];}
 
-  const msgs={naam:'Vul je naam in.',email:'Vul een geldig e-mailadres in.',soort:'Kies het soort feest.',datum:'Kies een datum.',plaats:'Vul de plaats in.'};
+  const msgs={naam:'Vul je naam in.',email:'Vul een geldig e-mailadres in.',soort:'Kies het soort aanvraag.',datum:'Kies een datum.',plaats:'Vul de plaats in.'};
   const check=el=>{
     const ok=el.checkValidity();
     el.setAttribute('aria-invalid',!ok);

@@ -58,7 +58,7 @@
     <div class="wrap">
       <span class="label">Nu boeken</span>
       <h1 class="hero-title">Boek Tresor voor je feest</h1>
-      <p class="lead">Van het eerste glas tot de laatste dans. Vertel over je feest, dan checkt Tresor of hij vrij is.</p>
+      <p class="lead">Van het eerste glas tot de laatste dans. Feest of samenwerking? Vertel je plan, dan reageert Tresor.</p>
     </div>
   </section>
 
@@ -67,7 +67,7 @@
       <aside>
         <h2 class="h2">Zo werkt het</h2>
         <ol class="steps">
-          <li><div><h3 class="h3">Stuur je aanvraag</h3><p class="muted">Soort feest, datum en plaats is genoeg om te beginnen.</p></div></li>
+          <li><div><h3 class="h3">Stuur je aanvraag</h3><p class="muted">Soort aanvraag, datum en plaats is genoeg om te beginnen.</p></div></li>
           <li><div><h3 class="h3">Tresor checkt je datum</h3><p class="muted">Je hoort of hij vrij is en wat de mogelijkheden zijn.</p></div></li>
           <li><div><h3 class="h3">Samen de avond afstemmen</h3><p class="muted">Van diner tot dansvloer: jullie wensen, zijn opbouw.</p></div></li>
         </ol>
@@ -91,13 +91,14 @@
         <form id="boekform" action="#" method="post" novalidate>
           <div class="form-grid">
             <div class="field">
-              <label for="soort">Soort feest</label>
+              <label for="soort">Soort aanvraag</label>
               <select id="soort" name="soort" required aria-describedby="err-soort">
                 <option value="">Kies…</option>
                 <option>Bruiloft</option>
                 <option>Bedrijfsfeest of borrel</option>
                 <option>Studentenfeest of gala</option>
                 <option>Verjaardag of privéfeest</option>
+                <option>Samenwerking (artiest, venue, merk)</option>
                 <option>Iets anders</option>
               </select>
               <span class="err" id="err-soort"></span>
@@ -150,7 +151,7 @@
         </form>
         <div class="success" id="bedankt" hidden>
           <h2 class="h1" tabindex="-1">Aanvraag verstuurd</h2>
-          <p class="muted">Bedankt! Tresor checkt je datum en neemt contact met je op.</p>
+          <p class="muted">Bedankt! Tresor bekijkt je aanvraag en neemt contact met je op.</p>
         </div>
       </div>
     </div>
