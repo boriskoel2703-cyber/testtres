@@ -436,3 +436,6 @@ button{font-family:inherit}
 /* Achtergrondlogo's altijd in het midden, ook bij uitzoomen */
 .watermark,.foot .wm{left:50%;right:auto;transform:translateX(-50%);max-width:none}
 .flogo{display:inline-block;line-height:0;transition:transform .2s}.flogo:hover{transform:translateY(-2px)}
+/* Spotify-speler: hoeken echt rond, geen vierkant vlak erachter (Spotify zelf rondt af op 12px) */
+.muziek .spotify-wrap,.ospot .spotify-wrap{border-radius:12px;clip-path:inset(0 round 12px);-webkit-clip-path:inset(0 round 12px)}
+.muziek .spotify,.ospot .spotify{border-radius:12px;background:transparent}
