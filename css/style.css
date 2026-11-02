@@ -435,3 +435,4 @@ button{font-family:inherit}
 .endonly{padding-top:clamp(16px,2.5vw,32px)}
 /* Achtergrondlogo's altijd in het midden, ook bij uitzoomen */
 .watermark,.foot .wm{left:50%;right:auto;transform:translateX(-50%);max-width:none}
+.flogo{display:inline-block;line-height:0;transition:transform .2s}.flogo:hover{transform:translateY(-2px)}
