@@ -431,3 +431,5 @@ button{font-family:inherit}
 /* Footer-links: klik- en hovervlak alleen op het woord */
 .fcol{align-items:flex-start}
 .fcol a{display:inline-block}
+/* Boeken: ruimte boven de schuine footerlijn zodat hij niet wordt afgeknipt */
+.endonly{padding-top:clamp(16px,2.5vw,32px)}
