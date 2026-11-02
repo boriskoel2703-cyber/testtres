@@ -433,3 +433,5 @@ button{font-family:inherit}
 .fcol a{display:inline-block}
 /* Boeken: ruimte boven de schuine footerlijn zodat hij niet wordt afgeknipt */
 .endonly{padding-top:clamp(16px,2.5vw,32px)}
+/* Achtergrondlogo's altijd in het midden, ook bij uitzoomen */
+.watermark,.foot .wm{left:50%;right:auto;transform:translateX(-50%);max-width:none}
